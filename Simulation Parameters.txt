@@ -1,0 +1,5 @@
+.param Period = 100u
+.param Start = 0.2
+.param Stop = 1
+.param Duty1 = 0.1
+.tran 0 2 0 5u

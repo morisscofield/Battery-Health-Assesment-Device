@@ -1,0 +1,2 @@
+V=if(time < {Start},0,if(time > {Stop},0,if( mod(time) < {Duty1}*{Period},5,0)))
+.function mod(t) { {Period}*((t/{Period})-int(t/{Period})) }
